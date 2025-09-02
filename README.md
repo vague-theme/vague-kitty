@@ -6,16 +6,14 @@
 
 ## Usage
 
-1. Copy the `vague.conf` file to the `themes/` subdirectory in your Kitty configuration directory.
-   For exmaple:
+1. Clone the repository. For example into `~/.config/kitty`:
    ```sh
-   mkdir -p ~/.config/kitty/themes
-   wget -P ~/.config/kitty/themes https://github.com/vague-theme/kitty/raw/refs/heads/main/vague.conf
+   git clone https://github.com/vague-theme/vague-kitty ~/.config/kitty/vague
    ```
 
-2. Include theme file in your Kitty configuration file.
+2. Add an include directive to your `kitty.conf`:
    ```conf
-   include vague.conf
+   include vague/vague.conf
    ```
 
 ## Thanks to contributors

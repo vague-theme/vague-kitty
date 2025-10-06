@@ -6,14 +6,11 @@
 
 ## Usage
 
-1. Clone the repository. For example into `~/.config/kitty`:
-   ```sh
-   git clone https://github.com/vague-theme/vague-kitty ~/.config/kitty/vague
-   ```
+1. Save [vague.conf](vague.conf) file in `~/.config/kitty/` directory.
 
 2. Add an include directive to your `kitty.conf`:
    ```conf
-   include vague/vague.conf
+   include vague.conf
    ```
 
 ## Thanks to contributors

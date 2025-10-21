@@ -6,12 +6,20 @@
 
 ## Usage
 
+### Manual
+
 1. Save [vague.conf](vague.conf) file in `~/.config/kitty/` directory.
 
 2. Add an include directive to your `kitty.conf`:
    ```conf
    include vague.conf
    ```
+
+### Using kitten
+
+```sh
+kitty +kitten themes --reload-in=all Vague
+```
 
 ## Thanks to contributors
 

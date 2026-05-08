@@ -20,9 +20,3 @@
 ```sh
 kitty +kitten themes --reload-in=all Vague
 ```
-
-## Thanks to contributors
-
-- [skewb1k](https://github.com/skewb1k)
-- [vague2k](https://github.com/vague2k)
-
